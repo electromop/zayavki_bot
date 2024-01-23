@@ -8,7 +8,7 @@ admin1 = '642500259'
 
 bot = TeleBot("6670581865:AAFfkWdbZm9z9usHMSz_F9k4zfDYlTPA_iA")
 
-# bot.set_my_commands(telebot.types.BotCommand("/start", "Начать"))
+bot.set_my_commands([telebot.types.BotCommand("/start", "Начать оформление заявки")])
 
 requests = {}
 
